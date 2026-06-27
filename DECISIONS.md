@@ -2,9 +2,13 @@
 
 ## Failure Mode #0 — Vague Question
 
-**Question asked:** [paste your vague question here]
-**What the model did:** [describe what happened]
-**Why this matters:** Vague inputs produce vague or unhelpful outputs. Garbage in, garbage out. For an AI PM this means input quality is a product design problem — you need guardrails or guided inputs to prevent users from asking bad questions.
+**Question asked:** Which is the best?
+**What the model did:** Could not answer — asked clarifying questions
+about what was being compared and what criteria mattered.
+**Why this matters:** Vague inputs produce no useful output. For an AI PM
+this means input quality is a product design problem — you need guided
+inputs or guardrails to prevent users from asking questions the model
+cannot meaningfully answer.
 
 ## Observation — Safety Refusal
 
