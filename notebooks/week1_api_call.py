@@ -14,4 +14,12 @@ def ask_llm(question):
     )
     return response.content[0].text
 
-print(ask_llm('What are the three biggest risks of an AI agent system?'))
+questions = [
+    'What are the three biggest risks of an AI agent system?',
+    'When did India get Independence?',
+    'What is the history of fourth of July in USA?',
+    'Who invented electricity?',
+    'Which are the biggest cities on the West coast of USA?']
+
+for q in questions:
+    print(ask_llm(q))
