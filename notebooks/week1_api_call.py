@@ -15,11 +15,11 @@ def ask_llm(question):
     return response.content[0].text
 
 questions = [
-    'What are the three biggest risks of an AI agent system?',
     'When did India get Independence?',
     'What is the history of fourth of July in USA?',
     'Who invented electricity?',
-    'Which are the biggest cities on the West coast of USA?']
+    'Which are the biggest cities on the West coast of USA?',
+    'Which is the best?']
 
 for q in questions:
     print(ask_llm(q))
